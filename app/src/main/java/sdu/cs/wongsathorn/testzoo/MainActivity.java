@@ -6,13 +6,12 @@ import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.ImageButton;
 import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
 
 
-    ImageView Image1, Image2, Image3,Image4,Image5;
+    ImageView Image1,Image2,Image3,Image4,Image5;
     MediaPlayer mediaPlayer1, mediaPlayer2, mediaPlayer3;
 
     @Override
@@ -56,5 +55,5 @@ public class MainActivity extends AppCompatActivity {
         startActivity(mapIntent);
     }
 
-    }
+}
 
